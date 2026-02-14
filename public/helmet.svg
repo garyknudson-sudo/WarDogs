@@ -1,0 +1,8 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#171717"/>
+  <path d="M165 540C165 325 332 170 550 170H685V270H550C389 270 290 383 290 540V620H165V540Z" fill="#F6F6F6"/>
+  <path d="M280 610H735V700H280V610Z" fill="#FF3C00"/>
+  <path d="M620 320H760V520H620V320Z" fill="#F6F6F6"/>
+  <circle cx="590" cy="445" r="38" fill="#171717" stroke="#FF3C00" stroke-width="12"/>
+  <text x="120" y="820" fill="#F6F6F6" font-size="92" font-family="Arial Black, sans-serif">NO FEAR. ALL GAS.</text>
+</svg>
