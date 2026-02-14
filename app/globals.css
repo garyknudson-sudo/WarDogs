@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-coal text-ash font-body antialiased;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.clip-angle {
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-6xl px-6 py-20 md:px-10;
+}
+
+.brutalist-card {
+  @apply border-2 border-ash bg-steel p-6 shadow-harsh;
+}
